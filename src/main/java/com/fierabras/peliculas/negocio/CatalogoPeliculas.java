@@ -1,12 +1,12 @@
 package com.fierabras.peliculas.negocio;
 
 public interface CatalogoPeliculas {
-    public void agregarPelicula(String nombrePelicula, String nombreArchivo);
+    void agregarPelicula(String nombrePelicula, String nombreArchivo);
 
-    public void listarPeliculas(String nombreArchivo);
+    void listarPeliculas(String nombreArchivo);
 
-    public void buscarPelicula(String nombreArchivo, String buscar);
+    void buscarPelicula(String nombreArchivo, String buscar);
 
-    public void iniciaArchivo(String nombreArchivo);
+    void iniciaArchivo(String nombreArchivo);
 
 }

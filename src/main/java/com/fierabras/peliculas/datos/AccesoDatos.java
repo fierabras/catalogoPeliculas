@@ -6,16 +6,16 @@ import java.util.List;
 
 public interface AccesoDatos {
 
-    public boolean existe(String nombreArchivo);
+    boolean existe(String nombreArchivo);
 
-    public List<Pelicula> listar(String nombre);
+    List<Pelicula> listar(String nombre);
 
-    public void escribir(Pelicula pelicula, String nombreArchivo, boolean anexar);
+    void escribir(Pelicula pelicula, String nombreArchivo, boolean anexar);
 
-    public String buscar(String nombreArchivo, String buscar);
+    String buscar(String nombreArchivo, String buscar);
 
-    public void crear(String nombreArchivo);
+    void crear(String nombreArchivo);
 
-    public void borrar(String nombreArchivo);
+    void borrar(String nombreArchivo);
 
 }
